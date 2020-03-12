@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h2>Suade Labs Challenge</h2>
+    <h2 class="title">Suade Labs Challenge</h2>
     <div class="menu-container">
       <ul class="menu">
         <li><router-link to="/">Dashboard</router-link></li>

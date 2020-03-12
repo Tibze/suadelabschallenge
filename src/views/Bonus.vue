@@ -37,8 +37,6 @@ export default {
           })
           marker.setMap(map)
         })
-      }).catch(function (error) {
-        console.error(error)
       })
     }
   }

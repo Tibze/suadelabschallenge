@@ -12,7 +12,7 @@
       <tbody>
       <tr v-for="(item, index) in peoples" :key="index">
         <th scope="row">{{index + 1}}</th>
-        <td>{{item.name}}</td>
+        <td class="name">{{item.name}}</td>
         <td>
           <select class="form-input" @change="changeHandler($event, item)">
             <option v-for="index in 100" :key="index" :selected="item.age == index" :value="index">{{index}}</option>
