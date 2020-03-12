@@ -84,9 +84,3 @@ export default {
   }
 }
 </script>
-
-<style>
-  .home {
-    height: 400px;
-  }
-</style>
