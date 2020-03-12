@@ -21,9 +21,7 @@ export default {
   methods: {
     ...mapActions(['getPeoples']),
     buildMap () {
-      loadGoogleMapsApi({
-        key: 'AIzaSyCZjZ82JtDV3K4WATNnrHRL1sKnP1WIWn8'
-      }).then((googleMaps) => {
+      loadGoogleMapsApi().then((googleMaps) => {
         const Latlng = new googleMaps.LatLng(-25.363882, 131.044922)
         // eslint-disable-next-line no-new
         const map = new googleMaps.Map(document.querySelector('.map'), {
